@@ -10,9 +10,17 @@ import SwiftUI
 struct BoardView: View {
     
     @State var color: Color = .red
-    @State var position: CGPoint = .init(x: 0, y: 0)
+    @State var position: CGPoint = .init(x: 0, y: 0) {
+        didSet {
+            if isInsideCircle(of: 50, in: self.position, for: self.dragPosition) {
+                self.timer?.invalidate()
+                self.timer = nil
+            }
+        }
+    }
     @State var isCircleView: Bool = false
     @State var timer: Timer?
+    @State var dragPosition: CGPoint?
     
     var body: some View {
         
@@ -63,13 +71,22 @@ struct BoardView: View {
         .gesture(
             DragGesture()
                 .onChanged({ drag in
-                    if self.position == drag.location {
-                        self.timer?.invalidate()
-                        self.timer = nil
-                    }
+                    self.dragPosition = drag.location
+                })
+                .onEnded({ drag in
+                    self.dragPosition = nil
                 })
         )
         
+    }
+    
+    func isInsideCircle(of radius: Int, in position: CGPoint,for touchPosition: CGPoint?) -> Bool {
+        guard let touchPosition = touchPosition else { return false }
+        let initialX = position.x - 50
+        let initialY = position.y - 50
+        let finalX = position.x + 50
+        let finalY = position.y + 50
+        return (touchPosition.y > initialY && touchPosition.y < finalY) && (touchPosition.x > initialX && touchPosition.x < finalX)
     }
     
     func animateMoviment(from beginPosition: CGPoint, to finalPosition: CGPoint) {
@@ -93,6 +110,7 @@ struct BoardView: View {
             }
         })
         self.timer?.fire()
+
     }
     
     func updatePosition(x: CGFloat, y: CGFloat) {
