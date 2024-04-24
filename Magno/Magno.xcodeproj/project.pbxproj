@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2976402BD8656F003CBF58 /* UIBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29763F2BD8656F003CBF58 /* UIBoardView.swift */; };
+		0F2976422BD979C5003CBF58 /* OtherAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2976412BD979C5003CBF58 /* OtherAnimationView.swift */; };
+		0F9C52852BC744E60075F529 /* MagnoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C52842BC744E60075F529 /* MagnoApp.swift */; };
+		0F9C52872BC744E60075F529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C52862BC744E60075F529 /* ContentView.swift */; };
+		0F9C52892BC744E60075F529 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C52882BC744E60075F529 /* Item.swift */; };
+		0F9C528B2BC744E90075F529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F9C528A2BC744E90075F529 /* Assets.xcassets */; };
+		0F9C528F2BC744E90075F529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F9C528E2BC744E90075F529 /* Preview Assets.xcassets */; };
+		0F9C52992BC744E90075F529 /* MagnoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C52982BC744E90075F529 /* MagnoTests.swift */; };
+		0F9C52A32BC744E90075F529 /* MagnoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C52A22BC744E90075F529 /* MagnoUITests.swift */; };
+		0F9C52A52BC744E90075F529 /* MagnoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C52A42BC744E90075F529 /* MagnoUITestsLaunchTests.swift */; };
+		0F9C52B22BC744F80075F529 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C52B12BC744F80075F529 /* BoardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F9C52952BC744E90075F529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F9C52792BC744E60075F529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F9C52802BC744E60075F529;
+			remoteInfo = Magno;
+		};
+		0F9C529F2BC744E90075F529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F9C52792BC744E60075F529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F9C52802BC744E60075F529;
+			remoteInfo = Magno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F29763F2BD8656F003CBF58 /* UIBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBoardView.swift; sourceTree = "<group>"; };
+		0F2976412BD979C5003CBF58 /* OtherAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherAnimationView.swift; sourceTree = "<group>"; };
+		0F9C52812BC744E60075F529 /* Magno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9C52842BC744E60075F529 /* MagnoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnoApp.swift; sourceTree = "<group>"; };
+		0F9C52862BC744E60075F529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F9C52882BC744E60075F529 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0F9C528A2BC744E90075F529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F9C528C2BC744E90075F529 /* Magno.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Magno.entitlements; sourceTree = "<group>"; };
+		0F9C528E2BC744E90075F529 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F9C52942BC744E90075F529 /* MagnoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9C52982BC744E90075F529 /* MagnoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnoTests.swift; sourceTree = "<group>"; };
+		0F9C529E2BC744E90075F529 /* MagnoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9C52A22BC744E90075F529 /* MagnoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnoUITests.swift; sourceTree = "<group>"; };
+		0F9C52A42BC744E90075F529 /* MagnoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F9C52B12BC744F80075F529 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F9C527E2BC744E60075F529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F9C52912BC744E90075F529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F9C529B2BC744E90075F529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F9C52782BC744E60075F529 = {
+			isa = PBXGroup;
+			children = (
+				0F9C52832BC744E60075F529 /* Magno */,
+				0F9C52972BC744E90075F529 /* MagnoTests */,
+				0F9C52A12BC744E90075F529 /* MagnoUITests */,
+				0F9C52822BC744E60075F529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F9C52822BC744E60075F529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9C52812BC744E60075F529 /* Magno.app */,
+				0F9C52942BC744E90075F529 /* MagnoTests.xctest */,
+				0F9C529E2BC744E90075F529 /* MagnoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9C52832BC744E60075F529 /* Magno */ = {
+			isa = PBXGroup;
+			children = (
+				0F9C52842BC744E60075F529 /* MagnoApp.swift */,
+				0F9C52862BC744E60075F529 /* ContentView.swift */,
+				0F9C52882BC744E60075F529 /* Item.swift */,
+				0F9C528A2BC744E90075F529 /* Assets.xcassets */,
+				0F9C528C2BC744E90075F529 /* Magno.entitlements */,
+				0F9C528D2BC744E90075F529 /* Preview Content */,
+				0F9C52B12BC744F80075F529 /* BoardView.swift */,
+				0F29763F2BD8656F003CBF58 /* UIBoardView.swift */,
+				0F2976412BD979C5003CBF58 /* OtherAnimationView.swift */,
+			);
+			path = Magno;
+			sourceTree = "<group>";
+		};
+		0F9C528D2BC744E90075F529 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F9C528E2BC744E90075F529 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F9C52972BC744E90075F529 /* MagnoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F9C52982BC744E90075F529 /* MagnoTests.swift */,
+			);
+			path = MagnoTests;
+			sourceTree = "<group>";
+		};
+		0F9C52A12BC744E90075F529 /* MagnoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F9C52A22BC744E90075F529 /* MagnoUITests.swift */,
+				0F9C52A42BC744E90075F529 /* MagnoUITestsLaunchTests.swift */,
+			);
+			path = MagnoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F9C52802BC744E60075F529 /* Magno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F9C52A82BC744E90075F529 /* Build configuration list for PBXNativeTarget "Magno" */;
+			buildPhases = (
+				0F9C527D2BC744E60075F529 /* Sources */,
+				0F9C527E2BC744E60075F529 /* Frameworks */,
+				0F9C527F2BC744E60075F529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magno;
+			productName = Magno;
+			productReference = 0F9C52812BC744E60075F529 /* Magno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F9C52932BC744E90075F529 /* MagnoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F9C52AB2BC744E90075F529 /* Build configuration list for PBXNativeTarget "MagnoTests" */;
+			buildPhases = (
+				0F9C52902BC744E90075F529 /* Sources */,
+				0F9C52912BC744E90075F529 /* Frameworks */,
+				0F9C52922BC744E90075F529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F9C52962BC744E90075F529 /* PBXTargetDependency */,
+			);
+			name = MagnoTests;
+			productName = MagnoTests;
+			productReference = 0F9C52942BC744E90075F529 /* MagnoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F9C529D2BC744E90075F529 /* MagnoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F9C52AE2BC744E90075F529 /* Build configuration list for PBXNativeTarget "MagnoUITests" */;
+			buildPhases = (
+				0F9C529A2BC744E90075F529 /* Sources */,
+				0F9C529B2BC744E90075F529 /* Frameworks */,
+				0F9C529C2BC744E90075F529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F9C52A02BC744E90075F529 /* PBXTargetDependency */,
+			);
+			name = MagnoUITests;
+			productName = MagnoUITests;
+			productReference = 0F9C529E2BC744E90075F529 /* MagnoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F9C52792BC744E60075F529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					0F9C52802BC744E60075F529 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					0F9C52932BC744E90075F529 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 0F9C52802BC744E60075F529;
+					};
+					0F9C529D2BC744E90075F529 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 0F9C52802BC744E60075F529;
+					};
+				};
+			};
+			buildConfigurationList = 0F9C527C2BC744E60075F529 /* Build configuration list for PBXProject "Magno" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F9C52782BC744E60075F529;
+			productRefGroup = 0F9C52822BC744E60075F529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F9C52802BC744E60075F529 /* Magno */,
+				0F9C52932BC744E90075F529 /* MagnoTests */,
+				0F9C529D2BC744E90075F529 /* MagnoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F9C527F2BC744E60075F529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9C528F2BC744E90075F529 /* Preview Assets.xcassets in Resources */,
+				0F9C528B2BC744E90075F529 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F9C52922BC744E90075F529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F9C529C2BC744E90075F529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F9C527D2BC744E60075F529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9C52872BC744E60075F529 /* ContentView.swift in Sources */,
+				0F9C52892BC744E60075F529 /* Item.swift in Sources */,
+				0F2976422BD979C5003CBF58 /* OtherAnimationView.swift in Sources */,
+				0F2976402BD8656F003CBF58 /* UIBoardView.swift in Sources */,
+				0F9C52B22BC744F80075F529 /* BoardView.swift in Sources */,
+				0F9C52852BC744E60075F529 /* MagnoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F9C52902BC744E90075F529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9C52992BC744E90075F529 /* MagnoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F9C529A2BC744E90075F529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9C52A32BC744E90075F529 /* MagnoUITests.swift in Sources */,
+				0F9C52A52BC744E90075F529 /* MagnoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F9C52962BC744E90075F529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F9C52802BC744E60075F529 /* Magno */;
+			targetProxy = 0F9C52952BC744E90075F529 /* PBXContainerItemProxy */;
+		};
+		0F9C52A02BC744E90075F529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F9C52802BC744E60075F529 /* Magno */;
+			targetProxy = 0F9C529F2BC744E90075F529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F9C52A62BC744E90075F529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F9C52A72BC744E90075F529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0F9C52A92BC744E90075F529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Magno/Magno.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magno/Preview Content\"";
+				DEVELOPMENT_TEAM = B5BH4949Y8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magno.Magno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F9C52AA2BC744E90075F529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Magno/Magno.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magno/Preview Content\"";
+				DEVELOPMENT_TEAM = B5BH4949Y8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magno.Magno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F9C52AC2BC744E90075F529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5BH4949Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magno.MagnoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magno.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magno";
+			};
+			name = Debug;
+		};
+		0F9C52AD2BC744E90075F529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5BH4949Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magno.MagnoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magno.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magno";
+			};
+			name = Release;
+		};
+		0F9C52AF2BC744E90075F529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5BH4949Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magno.MagnoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magno;
+			};
+			name = Debug;
+		};
+		0F9C52B02BC744E90075F529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5BH4949Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magno.MagnoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magno;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F9C527C2BC744E60075F529 /* Build configuration list for PBXProject "Magno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9C52A62BC744E90075F529 /* Debug */,
+				0F9C52A72BC744E90075F529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F9C52A82BC744E90075F529 /* Build configuration list for PBXNativeTarget "Magno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9C52A92BC744E90075F529 /* Debug */,
+				0F9C52AA2BC744E90075F529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F9C52AB2BC744E90075F529 /* Build configuration list for PBXNativeTarget "MagnoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9C52AC2BC744E90075F529 /* Debug */,
+				0F9C52AD2BC744E90075F529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F9C52AE2BC744E90075F529 /* Build configuration list for PBXNativeTarget "MagnoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9C52AF2BC744E90075F529 /* Debug */,
+				0F9C52B02BC744E90075F529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F9C52792BC744E60075F529 /* Project object */;
+}
