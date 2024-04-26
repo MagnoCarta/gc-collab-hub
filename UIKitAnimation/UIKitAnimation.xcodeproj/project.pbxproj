@@ -12,6 +12,7 @@
 		34E596972BD9A5A20067EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E596962BD9A5A20067EF6F /* Assets.xcassets */; };
 		34E5969A2BD9A5A20067EF6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E596992BD9A5A20067EF6F /* Preview Assets.xcassets */; };
 		34E596A12BD9A5C90067EF6F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596A02BD9A5C90067EF6F /* UIViewController.swift */; };
+		34E596A32BDC244D0067EF6F /* loadingAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596A22BDC244D0067EF6F /* loadingAnimateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		34E596962BD9A5A20067EF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E596992BD9A5A20067EF6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		34E596A02BD9A5C90067EF6F /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		34E596A22BDC244D0067EF6F /* loadingAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingAnimateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				34E596962BD9A5A20067EF6F /* Assets.xcassets */,
 				34E596982BD9A5A20067EF6F /* Preview Content */,
 				34E596A02BD9A5C90067EF6F /* UIViewController.swift */,
+				34E596A22BDC244D0067EF6F /* loadingAnimateViewController.swift */,
 			);
 			path = UIKitAnimation;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E596952BD9A5A10067EF6F /* ContentView.swift in Sources */,
+				34E596A32BDC244D0067EF6F /* loadingAnimateViewController.swift in Sources */,
 				34E596A12BD9A5C90067EF6F /* UIViewController.swift in Sources */,
 				34E596932BD9A5A10067EF6F /* UIKitAnimationApp.swift in Sources */,
 			);
