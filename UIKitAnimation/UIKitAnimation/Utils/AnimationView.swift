@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct AnimationView: UIViewControllerRepresentable {
-    func makeUIViewController(context: Context) -> ViewController {
-        .init()
+    func makeUIViewController(context: Context) -> NavigationViewController {
+        .init(view: IntroductionAnimationViewController())
     }
     
-    func updateUIViewController(_ uiViewController: ViewController, context: Context) {
+    func updateUIViewController(_ uiViewController: NavigationViewController, context: Context) {
     }
     
-    typealias UIViewControllerType = ViewController
+    typealias UIViewControllerType = NavigationViewController
     
 }
