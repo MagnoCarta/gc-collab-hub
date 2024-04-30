@@ -15,6 +15,8 @@
 		34E596C22BE0662A0067EF6F /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C12BE0662A0067EF6F /* AnimationView.swift */; };
 		34E596C52BE066930067EF6F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C42BE066930067EF6F /* CircleView.swift */; };
 		34E596C72BE06BBE0067EF6F /* StackCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C62BE06BBE0067EF6F /* StackCircleView.swift */; };
+		34E596C92BE15A7F0067EF6F /* ButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C82BE15A7F0067EF6F /* ButtonUIView.swift */; };
+		34E596CB2BE16BF70067EF6F /* OptionsAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596CA2BE16BF70067EF6F /* OptionsAnimateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		34E596C12BE0662A0067EF6F /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		34E596C42BE066930067EF6F /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		34E596C62BE06BBE0067EF6F /* StackCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCircleView.swift; sourceTree = "<group>"; };
+		34E596C82BE15A7F0067EF6F /* ButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUIView.swift; sourceTree = "<group>"; };
+		34E596CA2BE16BF70067EF6F /* OptionsAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsAnimateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +63,12 @@
 		34E596AF2BE04E670067EF6F /* UIKitAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				34E596C32BE066600067EF6F /* SubViews */,
+				34E596CC2BE16C040067EF6F /* Views */,
 				34E596C02BE066130067EF6F /* Utils */,
 				34E596B02BE04E670067EF6F /* UIKitAnimationApp.swift */,
 				34E596B22BE04E670067EF6F /* ContentView.swift */,
 				34E596B42BE04E680067EF6F /* Assets.xcassets */,
 				34E596B62BE04E680067EF6F /* Preview Content */,
-				34E596BE2BE04E950067EF6F /* ViewController.swift */,
 			);
 			path = UIKitAnimation;
 			sourceTree = "<group>";
@@ -91,8 +94,19 @@
 			children = (
 				34E596C42BE066930067EF6F /* CircleView.swift */,
 				34E596C62BE06BBE0067EF6F /* StackCircleView.swift */,
+				34E596C82BE15A7F0067EF6F /* ButtonUIView.swift */,
 			);
 			path = SubViews;
+			sourceTree = "<group>";
+		};
+		34E596CC2BE16C040067EF6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34E596BE2BE04E950067EF6F /* ViewController.swift */,
+				34E596CA2BE16BF70067EF6F /* OptionsAnimateViewController.swift */,
+				34E596C32BE066600067EF6F /* SubViews */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +182,8 @@
 				34E596C52BE066930067EF6F /* CircleView.swift in Sources */,
 				34E596C72BE06BBE0067EF6F /* StackCircleView.swift in Sources */,
 				34E596BF2BE04E950067EF6F /* ViewController.swift in Sources */,
+				34E596CB2BE16BF70067EF6F /* OptionsAnimateViewController.swift in Sources */,
+				34E596C92BE15A7F0067EF6F /* ButtonUIView.swift in Sources */,
 				34E596C22BE0662A0067EF6F /* AnimationView.swift in Sources */,
 				34E596B32BE04E670067EF6F /* ContentView.swift in Sources */,
 				34E596B12BE04E670067EF6F /* UIKitAnimationApp.swift in Sources */,
