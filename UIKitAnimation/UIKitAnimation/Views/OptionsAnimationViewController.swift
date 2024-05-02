@@ -7,15 +7,16 @@
 
 import UIKit
 
-class OptionsAnimationViewController: ViewController {
+class OptionsAnimationViewController: BaseAnimationViewController {
+
     override func viewDidLoad() {
-        navigationItem.title = "Options"
+
+        titlePage = "Options"
+        nextPage = CompletionAnimationController()
+
         super.viewDidLoad()
     }
-    override func nextPage() {
-        let vc = CompletionAnimationController()
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
+
     override func runAnimate() {
         UIView.animate(withDuration: 1, delay: 1, options: [.repeat]) {
             self.circleView.frame.origin = CGPoint(x: 300, y: 300)

@@ -7,11 +7,16 @@
 
 import UIKit
 
-class CompletionAnimationController: ViewController {
+class CompletionAnimationController: BaseAnimationViewController {
+
     override func viewDidLoad() {
-        navigationItem.title = "Completion"
+
+        titlePage = "Completion"
+        nextPage = KeyFrameAnimationViewController()
+
         super.viewDidLoad()
     }
+
     override func runAnimate() {
         UIView.animate(withDuration: 1, delay: 1) {
             self.circleView.frame.origin = CGPoint(x: 200, y: 200)
@@ -46,8 +51,8 @@ class CompletionAnimationController: ViewController {
         self.circleView.frame.origin = CGPoint(x: 50, y: 100)
     }
     
-    override func nextPage() {
-        var vc = KeyFrameAnimationViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
+//    override func nextPage() {
+//        var vc = KeyFrameAnimationViewController()
+//        self.navigationController?.pushViewController(vc, animated: true)
+//    }
 }

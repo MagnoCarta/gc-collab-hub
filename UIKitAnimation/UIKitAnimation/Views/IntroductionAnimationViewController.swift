@@ -7,9 +7,13 @@
 
 import UIKit
 
-class IntroductionAnimationViewController: ViewController {
+class IntroductionAnimationViewController: BaseAnimationViewController {
+    
     override func viewDidLoad() {
-        navigationItem.title = "Introduction"
+
+        titlePage = "Introduction"
+        nextPage = OptionsAnimationViewController()
+
         super.viewDidLoad()
     }
     
@@ -23,10 +27,5 @@ class IntroductionAnimationViewController: ViewController {
             self.circleView.transform = .identity
             self.circleView.frame.origin = CGPoint(x: 50, y: 100)
         }
-    }
-    
-    override func nextPage() {
-        let vc = OptionsAnimationViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
     }
 }

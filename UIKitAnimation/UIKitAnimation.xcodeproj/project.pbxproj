@@ -11,7 +11,7 @@
 		34E596B32BE04E670067EF6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596B22BE04E670067EF6F /* ContentView.swift */; };
 		34E596B52BE04E680067EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E596B42BE04E680067EF6F /* Assets.xcassets */; };
 		34E596B82BE04E680067EF6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E596B72BE04E680067EF6F /* Preview Assets.xcassets */; };
-		34E596BF2BE04E950067EF6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596BE2BE04E950067EF6F /* ViewController.swift */; };
+		34E596BF2BE04E950067EF6F /* BaseAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596BE2BE04E950067EF6F /* BaseAnimationViewController.swift */; };
 		34E596C22BE0662A0067EF6F /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C12BE0662A0067EF6F /* AnimationView.swift */; };
 		34E596C52BE066930067EF6F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C42BE066930067EF6F /* CircleView.swift */; };
 		34E596C72BE06BBE0067EF6F /* StackCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C62BE06BBE0067EF6F /* StackCircleView.swift */; };
@@ -22,6 +22,7 @@
 		34E596D22BE17E210067EF6F /* IntroductionAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D12BE17E210067EF6F /* IntroductionAnimationViewController.swift */; };
 		34E596D42BE18F320067EF6F /* CompletionAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D32BE18F320067EF6F /* CompletionAnimationController.swift */; };
 		34E596D62BE194B40067EF6F /* KeyFrameAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */; };
+		34E596D82BE43CDE0067EF6F /* TransitionAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +31,7 @@
 		34E596B22BE04E670067EF6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34E596B42BE04E680067EF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E596B72BE04E680067EF6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		34E596BE2BE04E950067EF6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34E596BE2BE04E950067EF6F /* BaseAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAnimationViewController.swift; sourceTree = "<group>"; };
 		34E596C12BE0662A0067EF6F /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		34E596C42BE066930067EF6F /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		34E596C62BE06BBE0067EF6F /* StackCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCircleView.swift; sourceTree = "<group>"; };
@@ -41,6 +42,7 @@
 		34E596D12BE17E210067EF6F /* IntroductionAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionAnimationViewController.swift; sourceTree = "<group>"; };
 		34E596D32BE18F320067EF6F /* CompletionAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionAnimationController.swift; sourceTree = "<group>"; };
 		34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameAnimationViewController.swift; sourceTree = "<group>"; };
+		34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +115,12 @@
 		34E596CC2BE16C040067EF6F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				34E596BE2BE04E950067EF6F /* ViewController.swift */,
+				34E596BE2BE04E950067EF6F /* BaseAnimationViewController.swift */,
 				34E596D12BE17E210067EF6F /* IntroductionAnimationViewController.swift */,
 				34E596CA2BE16BF70067EF6F /* OptionsAnimationViewController.swift */,
 				34E596D32BE18F320067EF6F /* CompletionAnimationController.swift */,
 				34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */,
+				34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */,
 				34E596C32BE066600067EF6F /* SubViews */,
 				34E596CF2BE17D1A0067EF6F /* teste.swift */,
 			);
@@ -194,11 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E596D82BE43CDE0067EF6F /* TransitionAnimationViewController.swift in Sources */,
 				34E596D42BE18F320067EF6F /* CompletionAnimationController.swift in Sources */,
 				34E596D22BE17E210067EF6F /* IntroductionAnimationViewController.swift in Sources */,
 				34E596C52BE066930067EF6F /* CircleView.swift in Sources */,
 				34E596C72BE06BBE0067EF6F /* StackCircleView.swift in Sources */,
-				34E596BF2BE04E950067EF6F /* ViewController.swift in Sources */,
+				34E596BF2BE04E950067EF6F /* BaseAnimationViewController.swift in Sources */,
 				34E596CB2BE16BF70067EF6F /* OptionsAnimationViewController.swift in Sources */,
 				34E596CE2BE16D080067EF6F /* NavigationViewController.swift in Sources */,
 				34E596D62BE194B40067EF6F /* KeyFrameAnimationViewController.swift in Sources */,

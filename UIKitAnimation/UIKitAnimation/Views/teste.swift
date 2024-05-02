@@ -8,9 +8,9 @@
 import UIKit
 
 class Teste: UIViewController {
-    var buttonRun: ButtonUIView  {ButtonUIView(x: 50, y: 500, width: 100, height: 60, title: "Run")}
+    var buttonRun: ButtonUIView  {ButtonUIView(x: 50, y: 500, width: 100, height: 60, type: .playAnimation)}
     
-    var buttonNext: ButtonUIView {ButtonUIView(x: 250, y: 500, width: 100, height: 60, title: "Next")}
+    var buttonNext: ButtonUIView {ButtonUIView(x: 250, y: 500, width: 100, height: 60, type: .nextPage)}
     
     // initial State x = 50; y = 100; width: 150
     var circleView: CircleView { CircleView(x: 50, y: 100, width: 150)} // UIView

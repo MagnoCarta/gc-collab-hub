@@ -7,7 +7,16 @@
 
 import UIKit
 
-class KeyFrameAnimationViewController: ViewController {
+class KeyFrameAnimationViewController: BaseAnimationViewController {
+
+    override func viewDidLoad() {
+
+        nextPage = TransitionAnimationViewController()
+        titlePage = "KeyFrame"
+
+        super.viewDidLoad()
+    }
+
     override func runAnimate() {
         UIView.animateKeyframes(withDuration: 4, delay: 1) {
             UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.10) {
