@@ -23,6 +23,8 @@
 		34E596D42BE18F320067EF6F /* CompletionAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D32BE18F320067EF6F /* CompletionAnimationController.swift */; };
 		34E596D62BE194B40067EF6F /* KeyFrameAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */; };
 		34E596D82BE43CDE0067EF6F /* TransitionAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */; };
+		34E596DA2BE58E2C0067EF6F /* ViewControllerToPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D92BE58E2C0067EF6F /* ViewControllerToPreview.swift */; };
+		34E596DC2BE590480067EF6F /* TransitionAnimationTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596DB2BE590480067EF6F /* TransitionAnimationTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		34E596D32BE18F320067EF6F /* CompletionAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionAnimationController.swift; sourceTree = "<group>"; };
 		34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameAnimationViewController.swift; sourceTree = "<group>"; };
 		34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationViewController.swift; sourceTree = "<group>"; };
+		34E596D92BE58E2C0067EF6F /* ViewControllerToPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerToPreview.swift; sourceTree = "<group>"; };
+		34E596DB2BE590480067EF6F /* TransitionAnimationTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			children = (
 				34E596C12BE0662A0067EF6F /* AnimationView.swift */,
 				34E596CD2BE16D080067EF6F /* NavigationViewController.swift */,
+				34E596D92BE58E2C0067EF6F /* ViewControllerToPreview.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 				34E596D32BE18F320067EF6F /* CompletionAnimationController.swift */,
 				34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */,
 				34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */,
+				34E596DB2BE590480067EF6F /* TransitionAnimationTwoViewController.swift */,
 				34E596C32BE066600067EF6F /* SubViews */,
 				34E596CF2BE17D1A0067EF6F /* teste.swift */,
 			);
@@ -203,8 +209,10 @@
 				34E596C52BE066930067EF6F /* CircleView.swift in Sources */,
 				34E596C72BE06BBE0067EF6F /* StackCircleView.swift in Sources */,
 				34E596BF2BE04E950067EF6F /* BaseAnimationViewController.swift in Sources */,
+				34E596DA2BE58E2C0067EF6F /* ViewControllerToPreview.swift in Sources */,
 				34E596CB2BE16BF70067EF6F /* OptionsAnimationViewController.swift in Sources */,
 				34E596CE2BE16D080067EF6F /* NavigationViewController.swift in Sources */,
+				34E596DC2BE590480067EF6F /* TransitionAnimationTwoViewController.swift in Sources */,
 				34E596D62BE194B40067EF6F /* KeyFrameAnimationViewController.swift in Sources */,
 				34E596C92BE15A7F0067EF6F /* ButtonUIView.swift in Sources */,
 				34E596C22BE0662A0067EF6F /* AnimationView.swift in Sources */,
