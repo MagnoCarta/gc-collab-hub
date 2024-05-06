@@ -10,11 +10,11 @@ import UIKit
 class OptionsAnimationViewController: BaseAnimationViewController {
 
     override func viewDidLoad() {
+        
+        super.viewDidLoad()
 
         titlePage = "Options"
         nextPage = CompletionAnimationController()
-
-        super.viewDidLoad()
     }
 
     override func runAnimate() {

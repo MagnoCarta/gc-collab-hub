@@ -11,10 +11,12 @@ class IntroductionAnimationViewController: BaseAnimationViewController {
     
     override func viewDidLoad() {
 
+        super.viewDidLoad()
+
         titlePage = "Introduction"
         nextPage = OptionsAnimationViewController()
 
-        super.viewDidLoad()
+        
     }
     
     override func runAnimate(){

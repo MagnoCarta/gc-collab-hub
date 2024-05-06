@@ -24,13 +24,9 @@ class TransitionAnimationViewController: BaseAnimationViewController {
             height: 100
         )
         squareView.backgroundColor = .black
-        
     }
     
     override func runAnimate() {
-        
-        
-        
         UIView.transition(with: self.view, duration: 0.5, options: [.curveEaseIn, .transitionCurlDown]) {
             if(self.circleIsShowing){
                 self.circleView.removeFromSuperview()
