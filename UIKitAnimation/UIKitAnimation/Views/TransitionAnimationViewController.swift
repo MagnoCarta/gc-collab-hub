@@ -16,7 +16,7 @@ class TransitionAnimationViewController: BaseAnimationViewController {
         super.viewDidLoad()
         
         titlePage = "Transition"
-        nextPage = OptionsAnimationViewController()
+        nextPage = TransitionAnimationTwoViewController()
         squareView.frame = CGRect(
             x: self.circleView.frame.minX,
             y: self.circleView.frame.minY,

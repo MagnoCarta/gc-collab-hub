@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class IntroductionAnimationViewController: BaseAnimationViewController {
     
@@ -30,4 +31,8 @@ class IntroductionAnimationViewController: BaseAnimationViewController {
             self.circleView.frame.origin = CGPoint(x: 50, y: 100)
         }
     }
+}
+
+#Preview {
+    ViewControllerToPreview { IntroductionAnimationViewController.self }
 }

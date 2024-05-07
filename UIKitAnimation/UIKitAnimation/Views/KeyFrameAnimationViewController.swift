@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class KeyFrameAnimationViewController: BaseAnimationViewController {
 
@@ -36,4 +37,8 @@ class KeyFrameAnimationViewController: BaseAnimationViewController {
             }
         }
     }
+}
+
+#Preview {
+    ViewControllerToPreview { KeyFrameAnimationViewController.self }
 }

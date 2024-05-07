@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class OptionsAnimationViewController: BaseAnimationViewController {
 
@@ -27,4 +28,8 @@ class OptionsAnimationViewController: BaseAnimationViewController {
     override func viewDidDisappear(_ animated: Bool) {
         self.circleView.frame.origin = CGPoint(x: 50, y: 100)
     }
+}
+
+#Preview {
+    ViewControllerToPreview { OptionsAnimationViewController.self }
 }

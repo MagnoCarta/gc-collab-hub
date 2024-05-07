@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class CompletionAnimationController: BaseAnimationViewController {
 
@@ -50,9 +51,8 @@ class CompletionAnimationController: BaseAnimationViewController {
     override func viewDidDisappear(_ animated: Bool) {
         self.circleView.frame.origin = CGPoint(x: 50, y: 100)
     }
-    
-//    override func nextPage() {
-//        var vc = KeyFrameAnimationViewController()
-//        self.navigationController?.pushViewController(vc, animated: true)
-//    }
+}
+
+#Preview {
+    ViewControllerToPreview { CompletionAnimationController.self }
 }

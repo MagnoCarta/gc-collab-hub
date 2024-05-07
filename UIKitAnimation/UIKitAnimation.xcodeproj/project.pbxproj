@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345013F52BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013F42BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift */; };
+		345013F72BEABEE700706EF5 /* CALayersAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013F62BEABEE700706EF5 /* CALayersAnimationViewController.swift */; };
 		34E596B12BE04E670067EF6F /* UIKitAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596B02BE04E670067EF6F /* UIKitAnimationApp.swift */; };
 		34E596B32BE04E670067EF6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596B22BE04E670067EF6F /* ContentView.swift */; };
 		34E596B52BE04E680067EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E596B42BE04E680067EF6F /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		345013F42BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimatioThreeViewController.swift; sourceTree = "<group>"; };
+		345013F62BEABEE700706EF5 /* CALayersAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayersAnimationViewController.swift; sourceTree = "<group>"; };
 		34E596AD2BE04E670067EF6F /* UIKitAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E596B02BE04E670067EF6F /* UIKitAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAnimationApp.swift; sourceTree = "<group>"; };
 		34E596B22BE04E670067EF6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */,
 				34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */,
 				34E596DB2BE590480067EF6F /* TransitionAnimationTwoViewController.swift */,
+				345013F42BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift */,
+				345013F62BEABEE700706EF5 /* CALayersAnimationViewController.swift */,
 				34E596C32BE066600067EF6F /* SubViews */,
 				34E596CF2BE17D1A0067EF6F /* teste.swift */,
 			);
@@ -212,12 +218,14 @@
 				34E596DA2BE58E2C0067EF6F /* ViewControllerToPreview.swift in Sources */,
 				34E596CB2BE16BF70067EF6F /* OptionsAnimationViewController.swift in Sources */,
 				34E596CE2BE16D080067EF6F /* NavigationViewController.swift in Sources */,
+				345013F72BEABEE700706EF5 /* CALayersAnimationViewController.swift in Sources */,
 				34E596DC2BE590480067EF6F /* TransitionAnimationTwoViewController.swift in Sources */,
 				34E596D62BE194B40067EF6F /* KeyFrameAnimationViewController.swift in Sources */,
 				34E596C92BE15A7F0067EF6F /* ButtonUIView.swift in Sources */,
 				34E596C22BE0662A0067EF6F /* AnimationView.swift in Sources */,
 				34E596D02BE17D1A0067EF6F /* teste.swift in Sources */,
 				34E596B32BE04E670067EF6F /* ContentView.swift in Sources */,
+				345013F52BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift in Sources */,
 				34E596B12BE04E670067EF6F /* UIKitAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
