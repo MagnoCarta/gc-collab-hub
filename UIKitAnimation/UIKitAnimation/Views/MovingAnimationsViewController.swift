@@ -12,6 +12,7 @@ class MovingAnimationsViewController: BaseAnimationViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nextPage = DragAndExpandAnimationViewController()
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(runAnimateGesture(_:)))
         self.circleView.addGestureRecognizer(panGesture)
     }
