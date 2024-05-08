@@ -16,6 +16,8 @@ class TransitionAnimationThreeViewController: BaseAnimationViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        titlePage = "Transition 3"
+        nextPage = CALayersAnimationViewController()
         circleViewBlack = CircleView(x: 50, y: 100, width: 300)
         circleViewBlack.backgroundColor = .systemBlue
         circleViewBlack.alpha = 0
