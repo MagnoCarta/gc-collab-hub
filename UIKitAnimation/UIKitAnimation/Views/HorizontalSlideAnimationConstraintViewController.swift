@@ -1,5 +1,5 @@
 //
-//  HorizontalDeslizeAnimationConstraintViewController.swift
+//  HorizontalSlideAnimationConstraintViewController.swift
 //  UIKitAnimation
 //
 //  Created by Caio de Almeida Pessoa on 10/05/24.
@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-class HorizontalDeslizeAnimationConstraintViewController: UIViewController {
+class HorizontalSlideAnimationConstraintViewController: UIViewController {
     var leadingConstraint: NSLayoutConstraint!
     var centerConstraintText: NSLayoutConstraint!
     var isShowingDetails: Bool = false
@@ -20,7 +20,7 @@ class HorizontalDeslizeAnimationConstraintViewController: UIViewController {
         return view
     }()
     
-    let textButton: UIButton = {
+    let showDetailButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Mostrar Detalhes", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -31,59 +31,54 @@ class HorizontalDeslizeAnimationConstraintViewController: UIViewController {
         super.viewDidLoad()
         
         view.addSubview(animatedView)
-        view.addSubview(textButton)
+        view.addSubview(showDetailButton)
         
-        textButton.addTarget(self, action: #selector(animateView), for: .touchUpInside)
-
+        showDetailButton.addTarget(self, action: #selector(didTapShowDetail), for: .touchUpInside)
+        
         setupConstraints()
     }
-
-    @objc func animateView() {
+    
+    @objc func didTapShowDetail() {
         
-        if(isShowingDetails){
-            leadingConstraint.constant = 2 * view.frame.maxX
-            centerConstraintText.constant = 0
-        }else {
-            leadingConstraint.constant = view.frame.maxX - 20
-            centerConstraintText.constant = -view.frame.midY + 20
-        }
+        leadingConstraint.constant = isShowingDetails ? 2 * view.frame.maxX : view.frame.maxX - 40
+        centerConstraintText.constant = isShowingDetails ? 0 : -view.frame.midY + 20
         
         isShowingDetails.toggle()
         
         UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseInOut) {
-
+            
             self.view.layoutIfNeeded()
             
-        }completion: { _ in
-
+        } completion: { _ in
+            
             // Retorna ao estado inicial
-            if(!self.isShowingDetails) {
+            if !self.isShowingDetails {
                 self.leadingConstraint.constant = 0
             }
         }
     }
-
+    
     func setupConstraints() {
         
         leadingConstraint = animatedView.trailingAnchor.constraint(equalTo: view.leadingAnchor)
-        centerConstraintText = textButton.centerYAnchor.constraint(equalTo: view.centerYAnchor )
+        centerConstraintText = showDetailButton.centerYAnchor.constraint(equalTo: view.centerYAnchor )
         
         NSLayoutConstraint.activate([
             leadingConstraint,
-            animatedView.topAnchor.constraint(equalTo: view.topAnchor, constant: 40),
-            animatedView.widthAnchor.constraint(equalToConstant: 350),
-            animatedView.heightAnchor.constraint(equalToConstant: 700)
+            animatedView.topAnchor.constraint(equalTo: view.topAnchor, constant: 60),
+            animatedView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.9),
+            animatedView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.9)
         ])
         
         NSLayoutConstraint.activate([
             centerConstraintText,
-            textButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            textButton.widthAnchor.constraint(equalToConstant: 200),
-            textButton.heightAnchor.constraint(equalToConstant: 100)
+            showDetailButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            showDetailButton.widthAnchor.constraint(equalToConstant: 200),
+            showDetailButton.heightAnchor.constraint(equalToConstant: 100)
         ])
     }
 }
 
 #Preview {
-    ViewControllerToPreview { HorizontalDeslizeAnimationConstraintViewController.self }
+    ViewControllerToPreview { HorizontalSlideAnimationConstraintViewController.self }
 }

@@ -13,7 +13,7 @@
 		345013FB2BEC26B500706EF5 /* DragAndExpandAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013FA2BEC26B500706EF5 /* DragAndExpandAnimationViewController.swift */; };
 		345013FD2BED614600706EF5 /* HorizontalDeslizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013FC2BED614600706EF5 /* HorizontalDeslizeView.swift */; };
 		345013FF2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013FE2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift */; };
-		345014012BEEBB2E00706EF5 /* HorizontalDeslizeAnimationConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345014002BEEBB2E00706EF5 /* HorizontalDeslizeAnimationConstraintViewController.swift */; };
+		345014012BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345014002BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift */; };
 		34E596B12BE04E670067EF6F /* UIKitAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596B02BE04E670067EF6F /* UIKitAnimationApp.swift */; };
 		34E596B32BE04E670067EF6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596B22BE04E670067EF6F /* ContentView.swift */; };
 		34E596B52BE04E680067EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E596B42BE04E680067EF6F /* Assets.xcassets */; };
@@ -41,7 +41,7 @@
 		345013FA2BEC26B500706EF5 /* DragAndExpandAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndExpandAnimationViewController.swift; sourceTree = "<group>"; };
 		345013FC2BED614600706EF5 /* HorizontalDeslizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDeslizeView.swift; sourceTree = "<group>"; };
 		345013FE2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDeslizeAnimationViewController.swift; sourceTree = "<group>"; };
-		345014002BEEBB2E00706EF5 /* HorizontalDeslizeAnimationConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDeslizeAnimationConstraintViewController.swift; sourceTree = "<group>"; };
+		345014002BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSlideAnimationConstraintViewController.swift; sourceTree = "<group>"; };
 		34E596AD2BE04E670067EF6F /* UIKitAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E596B02BE04E670067EF6F /* UIKitAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAnimationApp.swift; sourceTree = "<group>"; };
 		34E596B22BE04E670067EF6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 				345013FA2BEC26B500706EF5 /* DragAndExpandAnimationViewController.swift */,
 				345013FC2BED614600706EF5 /* HorizontalDeslizeView.swift */,
 				345013FE2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift */,
-				345014002BEEBB2E00706EF5 /* HorizontalDeslizeAnimationConstraintViewController.swift */,
+				345014002BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift */,
 				34E596C32BE066600067EF6F /* SubViews */,
 				34E596CF2BE17D1A0067EF6F /* teste.swift */,
 			);
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				345014012BEEBB2E00706EF5 /* HorizontalDeslizeAnimationConstraintViewController.swift in Sources */,
+				345014012BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift in Sources */,
 				34E596D82BE43CDE0067EF6F /* TransitionAnimationViewController.swift in Sources */,
 				34E596D42BE18F320067EF6F /* CompletionAnimationController.swift in Sources */,
 				345013FD2BED614600706EF5 /* HorizontalDeslizeView.swift in Sources */,
