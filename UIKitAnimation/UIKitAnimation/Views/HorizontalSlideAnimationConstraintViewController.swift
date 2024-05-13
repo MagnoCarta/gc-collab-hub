@@ -40,7 +40,7 @@ class HorizontalSlideAnimationConstraintViewController: UIViewController {
     
     @objc func didTapShowDetail() {
         
-        leadingConstraint.constant = isShowingDetails ? 2 * view.frame.maxX : view.frame.maxX - 40
+        leadingConstraint.constant = isShowingDetails ? 2 * view.frame.maxX : view.frame.maxX - (view.frame.maxX - animatedView.frame.width)/2
         centerConstraintText.constant = isShowingDetails ? 0 : -view.frame.midY + 20
         
         isShowingDetails.toggle()
