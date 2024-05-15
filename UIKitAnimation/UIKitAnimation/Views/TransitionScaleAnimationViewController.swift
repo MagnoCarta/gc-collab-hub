@@ -80,5 +80,3 @@ class TransitionScaleAnimationViewController: UIViewController {
 #Preview {
     ViewControllerToPreview { TransitionScaleAnimationViewController.self }
 }
-
-// fazer o efeito de colocar um pouco mais pra cima vai ser doideira
