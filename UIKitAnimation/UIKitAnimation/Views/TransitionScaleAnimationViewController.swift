@@ -26,6 +26,7 @@ class TransitionScaleAnimationViewController: UIViewController {
     let uiImageView: UIImageView = {
         let image: UIImage = .init(systemName: "heart.fill")!
         let imageView: UIImageView = .init(image: image)
+        imageView.tintColor = .red
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()

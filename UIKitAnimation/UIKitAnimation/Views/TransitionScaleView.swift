@@ -23,7 +23,6 @@ struct TransitionScaleView: View {
                         })
                 }
                 .padding(.bottom, 120)
-    
             }
             .overlay {
                 if isScaled {
