@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		345013F52BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013F42BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift */; };
-		345013F72BEABEE700706EF5 /* CALayersAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013F62BEABEE700706EF5 /* CALayersAnimationViewController.swift */; };
-		345013F92BEC124F00706EF5 /* MovingAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013F82BEC124F00706EF5 /* MovingAnimationsViewController.swift */; };
-		345013FB2BEC26B500706EF5 /* DragAndExpandAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013FA2BEC26B500706EF5 /* DragAndExpandAnimationViewController.swift */; };
 		345013FD2BED614600706EF5 /* HorizontalDeslizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013FC2BED614600706EF5 /* HorizontalDeslizeView.swift */; };
 		345013FF2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345013FE2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift */; };
 		345014012BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345014002BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift */; };
@@ -24,27 +20,13 @@
 		34E596B32BE04E670067EF6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596B22BE04E670067EF6F /* ContentView.swift */; };
 		34E596B52BE04E680067EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E596B42BE04E680067EF6F /* Assets.xcassets */; };
 		34E596B82BE04E680067EF6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E596B72BE04E680067EF6F /* Preview Assets.xcassets */; };
-		34E596BF2BE04E950067EF6F /* BaseAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596BE2BE04E950067EF6F /* BaseAnimationViewController.swift */; };
-		34E596C22BE0662A0067EF6F /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C12BE0662A0067EF6F /* AnimationView.swift */; };
-		34E596C52BE066930067EF6F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C42BE066930067EF6F /* CircleView.swift */; };
-		34E596C72BE06BBE0067EF6F /* StackCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C62BE06BBE0067EF6F /* StackCircleView.swift */; };
-		34E596C92BE15A7F0067EF6F /* ButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596C82BE15A7F0067EF6F /* ButtonUIView.swift */; };
-		34E596CB2BE16BF70067EF6F /* OptionsAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596CA2BE16BF70067EF6F /* OptionsAnimationViewController.swift */; };
 		34E596CE2BE16D080067EF6F /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596CD2BE16D080067EF6F /* NavigationViewController.swift */; };
-		34E596D02BE17D1A0067EF6F /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596CF2BE17D1A0067EF6F /* teste.swift */; };
-		34E596D22BE17E210067EF6F /* IntroductionAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D12BE17E210067EF6F /* IntroductionAnimationViewController.swift */; };
-		34E596D42BE18F320067EF6F /* CompletionAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D32BE18F320067EF6F /* CompletionAnimationController.swift */; };
-		34E596D62BE194B40067EF6F /* KeyFrameAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */; };
-		34E596D82BE43CDE0067EF6F /* TransitionAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */; };
 		34E596DA2BE58E2C0067EF6F /* ViewControllerToPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596D92BE58E2C0067EF6F /* ViewControllerToPreview.swift */; };
-		34E596DC2BE590480067EF6F /* TransitionAnimationTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596DB2BE590480067EF6F /* TransitionAnimationTwoViewController.swift */; };
+		34F7C8E82BF54C2B00D0D6C1 /* HorizontalSlideAnimationConstraintViewControllerInitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7C8E72BF54C2B00D0D6C1 /* HorizontalSlideAnimationConstraintViewControllerInitial.swift */; };
+		34F7C8EB2BF54DA900D0D6C1 /* HorizontalDeslizeViewInitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7C8E32BF53E6000D0D6C1 /* HorizontalDeslizeViewInitial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		345013F42BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimatioThreeViewController.swift; sourceTree = "<group>"; };
-		345013F62BEABEE700706EF5 /* CALayersAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayersAnimationViewController.swift; sourceTree = "<group>"; };
-		345013F82BEC124F00706EF5 /* MovingAnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAnimationsViewController.swift; sourceTree = "<group>"; };
-		345013FA2BEC26B500706EF5 /* DragAndExpandAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndExpandAnimationViewController.swift; sourceTree = "<group>"; };
 		345013FC2BED614600706EF5 /* HorizontalDeslizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDeslizeView.swift; sourceTree = "<group>"; };
 		345013FE2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDeslizeAnimationViewController.swift; sourceTree = "<group>"; };
 		345014002BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSlideAnimationConstraintViewController.swift; sourceTree = "<group>"; };
@@ -59,20 +41,10 @@
 		34E596B22BE04E670067EF6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34E596B42BE04E680067EF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E596B72BE04E680067EF6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		34E596BE2BE04E950067EF6F /* BaseAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAnimationViewController.swift; sourceTree = "<group>"; };
-		34E596C12BE0662A0067EF6F /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
-		34E596C42BE066930067EF6F /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		34E596C62BE06BBE0067EF6F /* StackCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCircleView.swift; sourceTree = "<group>"; };
-		34E596C82BE15A7F0067EF6F /* ButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUIView.swift; sourceTree = "<group>"; };
-		34E596CA2BE16BF70067EF6F /* OptionsAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsAnimationViewController.swift; sourceTree = "<group>"; };
 		34E596CD2BE16D080067EF6F /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
-		34E596CF2BE17D1A0067EF6F /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
-		34E596D12BE17E210067EF6F /* IntroductionAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionAnimationViewController.swift; sourceTree = "<group>"; };
-		34E596D32BE18F320067EF6F /* CompletionAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionAnimationController.swift; sourceTree = "<group>"; };
-		34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameAnimationViewController.swift; sourceTree = "<group>"; };
-		34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationViewController.swift; sourceTree = "<group>"; };
 		34E596D92BE58E2C0067EF6F /* ViewControllerToPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerToPreview.swift; sourceTree = "<group>"; };
-		34E596DB2BE590480067EF6F /* TransitionAnimationTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationTwoViewController.swift; sourceTree = "<group>"; };
+		34F7C8E32BF53E6000D0D6C1 /* HorizontalDeslizeViewInitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDeslizeViewInitial.swift; sourceTree = "<group>"; };
+		34F7C8E72BF54C2B00D0D6C1 /* HorizontalSlideAnimationConstraintViewControllerInitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSlideAnimationConstraintViewControllerInitial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,50 +98,76 @@
 		34E596C02BE066130067EF6F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				34E596C12BE0662A0067EF6F /* AnimationView.swift */,
 				34E596CD2BE16D080067EF6F /* NavigationViewController.swift */,
 				34E596D92BE58E2C0067EF6F /* ViewControllerToPreview.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		34E596C32BE066600067EF6F /* SubViews */ = {
-			isa = PBXGroup;
-			children = (
-				34E596C42BE066930067EF6F /* CircleView.swift */,
-				34E596C62BE06BBE0067EF6F /* StackCircleView.swift */,
-				34E596C82BE15A7F0067EF6F /* ButtonUIView.swift */,
-			);
-			path = SubViews;
-			sourceTree = "<group>";
-		};
 		34E596CC2BE16C040067EF6F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				34E596BE2BE04E950067EF6F /* BaseAnimationViewController.swift */,
-				34E596D12BE17E210067EF6F /* IntroductionAnimationViewController.swift */,
-				34E596CA2BE16BF70067EF6F /* OptionsAnimationViewController.swift */,
-				34E596D32BE18F320067EF6F /* CompletionAnimationController.swift */,
-				34E596D52BE194B40067EF6F /* KeyFrameAnimationViewController.swift */,
-				34E596D72BE43CDE0067EF6F /* TransitionAnimationViewController.swift */,
-				34E596DB2BE590480067EF6F /* TransitionAnimationTwoViewController.swift */,
-				345013F42BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift */,
-				345013F62BEABEE700706EF5 /* CALayersAnimationViewController.swift */,
-				345013F82BEC124F00706EF5 /* MovingAnimationsViewController.swift */,
-				345013FA2BEC26B500706EF5 /* DragAndExpandAnimationViewController.swift */,
-				345013FC2BED614600706EF5 /* HorizontalDeslizeView.swift */,
-				345013FE2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift */,
-				345014002BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift */,
-				345014022BF2B38100706EF5 /* TransitionScaleView.swift */,
-				345014042BF2B67100706EF5 /* TransitionScaleAnimationViewController.swift */,
-				345014062BF3E78B00706EF5 /* StateAnimationView.swift */,
-				345014082BF3EF9B00706EF5 /* StateAnimationViewController.swift */,
-				3450140C2BF4088600706EF5 /* StateSlideAnimationView.swift */,
-				3450140E2BF4095E00706EF5 /* SlideAnimationViewController.swift */,
-				34E596C32BE066600067EF6F /* SubViews */,
-				34E596CF2BE17D1A0067EF6F /* teste.swift */,
+				34F7C8E22BF53DF400D0D6C1 /* final */,
+				34F7C8E12BF53DED00D0D6C1 /* initial */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		34F7C8E12BF53DED00D0D6C1 /* initial */ = {
+			isa = PBXGroup;
+			children = (
+				34F7C8E62BF54C1800D0D6C1 /* UIKitInitial */,
+				34F7C8E52BF54C1000D0D6C1 /* SwiftUIInitial */,
+			);
+			path = initial;
+			sourceTree = "<group>";
+		};
+		34F7C8E22BF53DF400D0D6C1 /* final */ = {
+			isa = PBXGroup;
+			children = (
+				34F7C8EA2BF54D5500D0D6C1 /* UIKitFinal */,
+				34F7C8E92BF54D1400D0D6C1 /* SwiftUIFinal */,
+			);
+			path = final;
+			sourceTree = "<group>";
+		};
+		34F7C8E52BF54C1000D0D6C1 /* SwiftUIInitial */ = {
+			isa = PBXGroup;
+			children = (
+				34F7C8E32BF53E6000D0D6C1 /* HorizontalDeslizeViewInitial.swift */,
+			);
+			path = SwiftUIInitial;
+			sourceTree = "<group>";
+		};
+		34F7C8E62BF54C1800D0D6C1 /* UIKitInitial */ = {
+			isa = PBXGroup;
+			children = (
+				34F7C8E72BF54C2B00D0D6C1 /* HorizontalSlideAnimationConstraintViewControllerInitial.swift */,
+			);
+			path = UIKitInitial;
+			sourceTree = "<group>";
+		};
+		34F7C8E92BF54D1400D0D6C1 /* SwiftUIFinal */ = {
+			isa = PBXGroup;
+			children = (
+				345013FC2BED614600706EF5 /* HorizontalDeslizeView.swift */,
+				345014022BF2B38100706EF5 /* TransitionScaleView.swift */,
+				345014062BF3E78B00706EF5 /* StateAnimationView.swift */,
+				3450140C2BF4088600706EF5 /* StateSlideAnimationView.swift */,
+			);
+			path = SwiftUIFinal;
+			sourceTree = "<group>";
+		};
+		34F7C8EA2BF54D5500D0D6C1 /* UIKitFinal */ = {
+			isa = PBXGroup;
+			children = (
+				345013FE2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift */,
+				345014002BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift */,
+				345014042BF2B67100706EF5 /* TransitionScaleAnimationViewController.swift */,
+				345014082BF3EF9B00706EF5 /* StateAnimationViewController.swift */,
+				3450140E2BF4095E00706EF5 /* SlideAnimationViewController.swift */,
+			);
+			path = UIKitFinal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,33 +241,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				345014012BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift in Sources */,
-				34E596D82BE43CDE0067EF6F /* TransitionAnimationViewController.swift in Sources */,
-				34E596D42BE18F320067EF6F /* CompletionAnimationController.swift in Sources */,
 				345013FD2BED614600706EF5 /* HorizontalDeslizeView.swift in Sources */,
-				34E596D22BE17E210067EF6F /* IntroductionAnimationViewController.swift in Sources */,
 				3450140D2BF4088600706EF5 /* StateSlideAnimationView.swift in Sources */,
-				34E596C52BE066930067EF6F /* CircleView.swift in Sources */,
-				34E596C72BE06BBE0067EF6F /* StackCircleView.swift in Sources */,
 				3450140F2BF4095E00706EF5 /* SlideAnimationViewController.swift in Sources */,
-				34E596BF2BE04E950067EF6F /* BaseAnimationViewController.swift in Sources */,
 				34E596DA2BE58E2C0067EF6F /* ViewControllerToPreview.swift in Sources */,
-				34E596CB2BE16BF70067EF6F /* OptionsAnimationViewController.swift in Sources */,
 				34E596CE2BE16D080067EF6F /* NavigationViewController.swift in Sources */,
 				345014072BF3E78B00706EF5 /* StateAnimationView.swift in Sources */,
-				345013F72BEABEE700706EF5 /* CALayersAnimationViewController.swift in Sources */,
-				34E596DC2BE590480067EF6F /* TransitionAnimationTwoViewController.swift in Sources */,
+				34F7C8E82BF54C2B00D0D6C1 /* HorizontalSlideAnimationConstraintViewControllerInitial.swift in Sources */,
 				345014052BF2B67100706EF5 /* TransitionScaleAnimationViewController.swift in Sources */,
-				34E596D62BE194B40067EF6F /* KeyFrameAnimationViewController.swift in Sources */,
-				34E596C92BE15A7F0067EF6F /* ButtonUIView.swift in Sources */,
-				34E596C22BE0662A0067EF6F /* AnimationView.swift in Sources */,
-				34E596D02BE17D1A0067EF6F /* teste.swift in Sources */,
 				34E596B32BE04E670067EF6F /* ContentView.swift in Sources */,
+				34F7C8EB2BF54DA900D0D6C1 /* HorizontalDeslizeViewInitial.swift in Sources */,
 				345014092BF3EF9B00706EF5 /* StateAnimationViewController.swift in Sources */,
 				345014032BF2B38100706EF5 /* TransitionScaleView.swift in Sources */,
-				345013F52BEAB90B00706EF5 /* TransitionAnimatioThreeViewController.swift in Sources */,
 				345013FF2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift in Sources */,
-				345013FB2BEC26B500706EF5 /* DragAndExpandAnimationViewController.swift in Sources */,
-				345013F92BEC124F00706EF5 /* MovingAnimationsViewController.swift in Sources */,
 				34E596B12BE04E670067EF6F /* UIKitAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
