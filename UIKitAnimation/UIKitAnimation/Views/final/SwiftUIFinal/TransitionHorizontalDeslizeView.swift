@@ -1,23 +1,26 @@
 //
-//  HorizontalDeslizeViewInitial.swift
+//  ContentView.swift
 //  UIKitAnimation
 //
-//  Created by Caio de Almeida Pessoa on 15/05/24.
+//  Created by Caio de Almeida Pessoa on 09/05/24.
 //
 
 import SwiftUI
 
-struct HorizontalDeslizeViewInitial: View {
+struct TransitionHorizontalDeslizeView: View {
     @State private var isShowingDetails = false
 
     var body: some View {
         VStack {
             Button("Mostrar Detalhes") {
-                isShowingDetails.toggle()
+                withAnimation {
+                    isShowingDetails.toggle()
+                }
             }
             if isShowingDetails {
                 Rectangle()
                     .fill(.blue)
+                    .transition(.slide)
             }
         }
         .padding()
@@ -25,5 +28,5 @@ struct HorizontalDeslizeViewInitial: View {
 }
 
 #Preview {
-    HorizontalDeslizeViewInitial()
+    TransitionHorizontalDeslizeView()
 }
