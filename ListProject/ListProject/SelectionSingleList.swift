@@ -26,16 +26,16 @@ struct SelectionSingleList: View {
         List(items, selection: $uuidSelected) {item in
             Text(item.name)
         }
-//        if( itemSelected != nil){
-//            Text("\(itemSelected!.name) Selected")
-//        }
-//        Button(action: {
-//            itemSelected = items.first { item in
-//                    item.id == Selection
-//                }
-//        }, label: {
-//            Text("Submit")
-//        })
+
+        Text("\((itemSelected != nil) ? itemSelected!.name : "Nothing") Selected")
+    
+        Button(action: {
+            itemSelected = items.first { item in
+                    item.id == uuidSelected
+                }
+        }, label: {
+            Text("Submit")
+        })
     }
 }
 

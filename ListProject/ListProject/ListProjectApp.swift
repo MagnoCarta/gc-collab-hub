@@ -11,7 +11,7 @@ import SwiftUI
 struct ListProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            SelectionSingleList()
+            MultiSelectionList()
         }
     }
 }

@@ -15,6 +15,9 @@
 		3450143F2BF69F9500706EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450143E2BF69F9500706EF5 /* ContentView.swift */; };
 		345014412BF69F9600706EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345014402BF69F9600706EF5 /* Assets.xcassets */; };
 		345014442BF69F9600706EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345014432BF69F9600706EF5 /* Preview Assets.xcassets */; };
+		3477265D2C052D19002CD707 /* MultiSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477265C2C052D19002CD707 /* MultiSelectionList.swift */; };
+		34FD44A72C0E75B000977D9D /* AddItemOnList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD44A62C0E75B000977D9D /* AddItemOnList.swift */; };
+		34FD44A92C110DD100977D9D /* DeleteItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD44A82C110DD100977D9D /* DeleteItemList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		3450143E2BF69F9500706EF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		345014402BF69F9600706EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		345014432BF69F9600706EF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3477265C2C052D19002CD707 /* MultiSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectionList.swift; sourceTree = "<group>"; };
+		34FD44A62C0E75B000977D9D /* AddItemOnList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemOnList.swift; sourceTree = "<group>"; };
+		34FD44A82C110DD100977D9D /* DeleteItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteItemList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				3404E8672BFFD0B10037E3E7 /* SelectionList.swift */,
 				3404E86B2BFFDF1C0037E3E7 /* SelectionSingleList.swift */,
 				3404E8692BFFD8740037E3E7 /* SelectionListSection.swift */,
+				3477265C2C052D19002CD707 /* MultiSelectionList.swift */,
+				34FD44A62C0E75B000977D9D /* AddItemOnList.swift */,
+				34FD44A82C110DD100977D9D /* DeleteItemList.swift */,
 				3404E8652BFD400B0037E3E7 /* DinamicList.swift */,
 				345014402BF69F9600706EF5 /* Assets.xcassets */,
 				345014422BF69F9600706EF5 /* Preview Content */,
@@ -152,9 +161,12 @@
 				3404E86A2BFFD8740037E3E7 /* SelectionListSection.swift in Sources */,
 				3404E8682BFFD0B10037E3E7 /* SelectionList.swift in Sources */,
 				3450143F2BF69F9500706EF5 /* ContentView.swift in Sources */,
+				34FD44A92C110DD100977D9D /* DeleteItemList.swift in Sources */,
 				3404E8662BFD400B0037E3E7 /* DinamicList.swift in Sources */,
+				3477265D2C052D19002CD707 /* MultiSelectionList.swift in Sources */,
 				3404E86C2BFFDF1C0037E3E7 /* SelectionSingleList.swift in Sources */,
 				3450143D2BF69F9500706EF5 /* ListProjectApp.swift in Sources */,
+				34FD44A72C0E75B000977D9D /* AddItemOnList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
