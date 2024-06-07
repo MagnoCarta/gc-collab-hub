@@ -26,8 +26,10 @@ struct AddItemOnList: View {
     var body: some View {
         NavigationView {
             VStack {
-                List(items, selection: $multiSelection) { item in
-                    Text(item.name)
+                List(selection: $multiSelection) {
+                    ForEach(items) {
+                        Text($0.name)
+                    }
                 }
                 
                 Text("\(multiSelection.count) selections")

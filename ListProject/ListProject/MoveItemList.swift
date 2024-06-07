@@ -1,16 +1,16 @@
 //
-//  DeleteItemList.swift
+//  EditItemList.swift
 //  ListProject
 //
-//  Created by Caio de Almeida Pessoa on 05/06/24.
+//  Created by Caio de Almeida Pessoa on 07/06/24.
 //
 
 import SwiftUI
 
-struct DeleteItemList: View {
+struct MoveItemList: View {
     struct Items: Identifiable {
         var id = UUID()
-        let name: String
+        var name: String
     }
     
     @State private var items: [Items] = [
@@ -27,11 +27,21 @@ struct DeleteItemList: View {
         NavigationView {
             VStack {
                 List(selection: $multiSelection){
-                    ForEach(items){
-                        Text($0.name)
-                    }.onDelete(perform: { indexSet in
+                    ForEach($items) { $item in
+                        
+                        if editMode.isEditing {
+                            TextField(text: $item.name) {
+                            }
+                        } else {
+                            Text(item.name)
+                        }
+                    }
+                    .onDelete(perform: { indexSet in
                         items.remove(atOffsets: indexSet)
                    })
+                    .onMove(perform: { indices, newOffset in
+                        items.move(fromOffsets: indices, toOffset: newOffset)
+                    })
                 }
                 
                 Text("\(multiSelection.count) selections")
@@ -100,5 +110,5 @@ struct DeleteItemList: View {
 }
 
 #Preview {
-    DeleteItemList()
+    MoveItemList()
 }
