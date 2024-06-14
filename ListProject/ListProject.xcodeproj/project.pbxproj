@@ -17,6 +17,7 @@
 		345014442BF69F9600706EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345014432BF69F9600706EF5 /* Preview Assets.xcassets */; };
 		3458600D2C17A7BC002CD9BD /* StyleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458600C2C17A7BC002CD9BD /* StyleList.swift */; };
 		3477265D2C052D19002CD707 /* MultiSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477265C2C052D19002CD707 /* MultiSelectionList.swift */; };
+		34FB7E172C1A5401009A9DB5 /* StyleListSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FB7E162C1A5401009A9DB5 /* StyleListSimple.swift */; };
 		34FD44A72C0E75B000977D9D /* AddItemOnList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD44A62C0E75B000977D9D /* AddItemOnList.swift */; };
 		34FD44A92C110DD100977D9D /* DeleteItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD44A82C110DD100977D9D /* DeleteItemList.swift */; };
 		34FD44AB2C139D1700977D9D /* MoveItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD44AA2C139D1700977D9D /* MoveItemList.swift */; };
@@ -35,6 +36,7 @@
 		345014432BF69F9600706EF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3458600C2C17A7BC002CD9BD /* StyleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleList.swift; sourceTree = "<group>"; };
 		3477265C2C052D19002CD707 /* MultiSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectionList.swift; sourceTree = "<group>"; };
+		34FB7E162C1A5401009A9DB5 /* StyleListSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleListSimple.swift; sourceTree = "<group>"; };
 		34FD44A62C0E75B000977D9D /* AddItemOnList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemOnList.swift; sourceTree = "<group>"; };
 		34FD44A82C110DD100977D9D /* DeleteItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteItemList.swift; sourceTree = "<group>"; };
 		34FD44AA2C139D1700977D9D /* MoveItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveItemList.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				34FD44AC2C13B04800977D9D /* EditItemList.swift */,
 				34FD44AA2C139D1700977D9D /* MoveItemList.swift */,
 				3458600C2C17A7BC002CD9BD /* StyleList.swift */,
+				34FB7E162C1A5401009A9DB5 /* StyleListSimple.swift */,
 				345014402BF69F9600706EF5 /* Assets.xcassets */,
 				345014422BF69F9600706EF5 /* Preview Content */,
 			);
@@ -175,6 +178,7 @@
 				34FD44AB2C139D1700977D9D /* MoveItemList.swift in Sources */,
 				3404E8662BFD400B0037E3E7 /* DinamicList.swift in Sources */,
 				3477265D2C052D19002CD707 /* MultiSelectionList.swift in Sources */,
+				34FB7E172C1A5401009A9DB5 /* StyleListSimple.swift in Sources */,
 				34FD44AD2C13B04800977D9D /* EditItemList.swift in Sources */,
 				3404E86C2BFFDF1C0037E3E7 /* SelectionSingleList.swift in Sources */,
 				3450143D2BF69F9500706EF5 /* ListProjectApp.swift in Sources */,

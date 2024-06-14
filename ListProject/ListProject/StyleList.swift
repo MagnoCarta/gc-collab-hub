@@ -46,7 +46,7 @@ struct StyleList: View {
 //                    .listRowSeparator(.hidden)
                     .listRowSeparatorTint(.red)
 //                    .listRowSpacing(200.0)
-//                    .listRowInsets(.init(top: 10, leading: 100, bottom: 10, trailing: 10))
+//                    .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 0))
                 }
                 
                 Text("\(multiSelection.count) selections")
