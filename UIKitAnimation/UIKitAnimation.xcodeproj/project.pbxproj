@@ -16,6 +16,9 @@
 		345014092BF3EF9B00706EF5 /* StateAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345014082BF3EF9B00706EF5 /* StateAnimationViewController.swift */; };
 		3450140D2BF4088600706EF5 /* StateSlideAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450140C2BF4088600706EF5 /* StateSlideAnimationView.swift */; };
 		3450140F2BF4095E00706EF5 /* SlideAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450140E2BF4095E00706EF5 /* SlideAnimationViewController.swift */; };
+		3471FB522C1C83B3009E3EA4 /* GestureAnimationViewInitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471FB512C1C83B3009E3EA4 /* GestureAnimationViewInitial.swift */; };
+		3471FB542C1C8648009E3EA4 /* GestureLongPressAnimationViewFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471FB532C1C8648009E3EA4 /* GestureLongPressAnimationViewFinal.swift */; };
+		3471FB562C1C875E009E3EA4 /* GestureAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471FB552C1C875E009E3EA4 /* GestureAnimationViewController.swift */; };
 		34E596B12BE04E670067EF6F /* UIKitAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596B02BE04E670067EF6F /* UIKitAnimationApp.swift */; };
 		34E596B32BE04E670067EF6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E596B22BE04E670067EF6F /* ContentView.swift */; };
 		34E596B52BE04E680067EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E596B42BE04E680067EF6F /* Assets.xcassets */; };
@@ -44,6 +47,9 @@
 		345014082BF3EF9B00706EF5 /* StateAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAnimationViewController.swift; sourceTree = "<group>"; };
 		3450140C2BF4088600706EF5 /* StateSlideAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSlideAnimationView.swift; sourceTree = "<group>"; };
 		3450140E2BF4095E00706EF5 /* SlideAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideAnimationViewController.swift; sourceTree = "<group>"; };
+		3471FB512C1C83B3009E3EA4 /* GestureAnimationViewInitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimationViewInitial.swift; sourceTree = "<group>"; };
+		3471FB532C1C8648009E3EA4 /* GestureLongPressAnimationViewFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLongPressAnimationViewFinal.swift; sourceTree = "<group>"; };
+		3471FB552C1C875E009E3EA4 /* GestureAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimationViewController.swift; sourceTree = "<group>"; };
 		34E596AD2BE04E670067EF6F /* UIKitAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E596B02BE04E670067EF6F /* UIKitAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAnimationApp.swift; sourceTree = "<group>"; };
 		34E596B22BE04E670067EF6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,6 +160,8 @@
 				E0678D8B2C0F5F1B007E03BA /* TransitionScaleViewInitial.swift */,
 				34FB7E0A2C18915A009A9DB5 /* StateAnimationViewInitial.swift */,
 				34FB7E0E2C18930D009A9DB5 /* StateSlideAnimationViewInitial.swift */,
+				3471FB512C1C83B3009E3EA4 /* GestureAnimationViewInitial.swift */,
+				3471FB532C1C8648009E3EA4 /* GestureLongPressAnimationViewFinal.swift */,
 			);
 			path = SwiftUIInitial;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 				345014042BF2B67100706EF5 /* TransitionScaleAnimationViewController.swift */,
 				345014082BF3EF9B00706EF5 /* StateAnimationViewController.swift */,
 				3450140E2BF4095E00706EF5 /* SlideAnimationViewController.swift */,
+				3471FB552C1C875E009E3EA4 /* GestureAnimationViewController.swift */,
 			);
 			path = UIKitFinal;
 			sourceTree = "<group>";
@@ -264,11 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3471FB522C1C83B3009E3EA4 /* GestureAnimationViewInitial.swift in Sources */,
 				345014012BEEBB2E00706EF5 /* HorizontalSlideAnimationConstraintViewController.swift in Sources */,
 				345013FD2BED614600706EF5 /* TransitionHorizontalDeslizeView.swift in Sources */,
 				3450140D2BF4088600706EF5 /* StateSlideAnimationView.swift in Sources */,
 				3450140F2BF4095E00706EF5 /* SlideAnimationViewController.swift in Sources */,
 				34E596DA2BE58E2C0067EF6F /* ViewControllerToPreview.swift in Sources */,
+				3471FB542C1C8648009E3EA4 /* GestureLongPressAnimationViewFinal.swift in Sources */,
 				34E596CE2BE16D080067EF6F /* NavigationViewController.swift in Sources */,
 				E0678D8C2C0F5F1B007E03BA /* TransitionScaleViewInitial.swift in Sources */,
 				E0678D8E2C0F5F31007E03BA /* TransitionScaleAnimationViewControllerInitial.swift in Sources */,
@@ -285,6 +296,7 @@
 				34FB7E112C189358009A9DB5 /* SlideAnimationViewControllerInitial.swift in Sources */,
 				345013FF2BED625100706EF5 /* HorizontalDeslizeAnimationViewController.swift in Sources */,
 				34FB7E0D2C1891E4009A9DB5 /* StateAnimationViewControllerInitial.swift in Sources */,
+				3471FB562C1C875E009E3EA4 /* GestureAnimationViewController.swift in Sources */,
 				34FB7E0F2C18930D009A9DB5 /* StateSlideAnimationViewInitial.swift in Sources */,
 				34E596B12BE04E670067EF6F /* UIKitAnimationApp.swift in Sources */,
 			);
