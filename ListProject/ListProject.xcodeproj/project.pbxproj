@@ -21,6 +21,7 @@
 		345860132C1B967A002CD9BD /* TokenFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345860122C1B967A002CD9BD /* TokenFilter.swift */; };
 		345860152C21F41A002CD9BD /* TokenFilterChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345860142C21F41A002CD9BD /* TokenFilterChat.swift */; };
 		3477265D2C052D19002CD707 /* MultiSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477265C2C052D19002CD707 /* MultiSelectionList.swift */; };
+		34FB7E172C1A5401009A9DB5 /* StyleListSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FB7E162C1A5401009A9DB5 /* StyleListSimple.swift */; };
 		34FD44A72C0E75B000977D9D /* AddItemOnList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD44A62C0E75B000977D9D /* AddItemOnList.swift */; };
 		34FD44A92C110DD100977D9D /* DeleteItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD44A82C110DD100977D9D /* DeleteItemList.swift */; };
 		34FD44AB2C139D1700977D9D /* MoveItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD44AA2C139D1700977D9D /* MoveItemList.swift */; };
@@ -43,6 +44,7 @@
 		345860122C1B967A002CD9BD /* TokenFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenFilter.swift; sourceTree = "<group>"; };
 		345860142C21F41A002CD9BD /* TokenFilterChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenFilterChat.swift; sourceTree = "<group>"; };
 		3477265C2C052D19002CD707 /* MultiSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectionList.swift; sourceTree = "<group>"; };
+		34FB7E162C1A5401009A9DB5 /* StyleListSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleListSimple.swift; sourceTree = "<group>"; };
 		34FD44A62C0E75B000977D9D /* AddItemOnList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemOnList.swift; sourceTree = "<group>"; };
 		34FD44A82C110DD100977D9D /* DeleteItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteItemList.swift; sourceTree = "<group>"; };
 		34FD44AA2C139D1700977D9D /* MoveItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveItemList.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				3458600E2C1B7ECD002CD9BD /* SimpleFilter.swift */,
 				345860142C21F41A002CD9BD /* TokenFilterChat.swift */,
 				345860122C1B967A002CD9BD /* TokenFilter.swift */,
+				34FB7E162C1A5401009A9DB5 /* StyleListSimple.swift */,
 				345014402BF69F9600706EF5 /* Assets.xcassets */,
 				345014422BF69F9600706EF5 /* Preview Content */,
 			);
@@ -190,6 +193,7 @@
 				3404E8662BFD400B0037E3E7 /* DinamicList.swift in Sources */,
 				345860112C1B82EA002CD9BD /* SimpleFilterSample.swift in Sources */,
 				3477265D2C052D19002CD707 /* MultiSelectionList.swift in Sources */,
+				34FB7E172C1A5401009A9DB5 /* StyleListSimple.swift in Sources */,
 				34FD44AD2C13B04800977D9D /* EditItemList.swift in Sources */,
 				3404E86C2BFFDF1C0037E3E7 /* SelectionSingleList.swift in Sources */,
 				3450143D2BF69F9500706EF5 /* ListProjectApp.swift in Sources */,
