@@ -47,9 +47,13 @@ struct StyleList: View {
                     .listRowSeparatorTint(.red)
 //                    .listRowSpacing(200.0)
 //                    .listRowInsets(.init(top: 10, leading: 100, bottom: 10, trailing: 10))
+//                    .listRowInsets(.init(top: <#T##CGFloat#>, leading: <#T##CGFloat#>, bottom: <#T##CGFloat#>, trailing: <#T##CGFloat#>))
                 }
                 
                 Text("\(multiSelection.count) selections")
+//                ["adsjuihsic"].filter {
+//                    "A".localizedCaseInsensitiveContains($0)
+//                }
                     .padding()
                 
                 if editMode.isEditing {
