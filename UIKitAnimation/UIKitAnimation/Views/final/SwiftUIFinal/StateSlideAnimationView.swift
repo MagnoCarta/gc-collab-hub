@@ -18,7 +18,7 @@ struct StateSlideAnimationView: View {
                     .foregroundColor(.blue)
                     .frame(width: 100, height: 100)
                     .scaleEffect(CGFloat(sliderValue))
-//                    .animation(.spring(), value: sliderValue)
+                    .animation(.spring(), value: sliderValue)
             }
         }
 }

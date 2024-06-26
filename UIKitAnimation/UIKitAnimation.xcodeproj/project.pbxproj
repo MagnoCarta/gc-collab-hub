@@ -25,6 +25,8 @@
 		345860232C237BFD002CD9BD /* EffectsAnimationTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345860222C237BFD002CD9BD /* EffectsAnimationTwoView.swift */; };
 		345860252C237E9A002CD9BD /* EffectsAnimationTwoViewInitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345860242C237E9A002CD9BD /* EffectsAnimationTwoViewInitial.swift */; };
 		345860272C23808F002CD9BD /* FinalAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345860262C23808F002CD9BD /* FinalAnimationView.swift */; };
+		3468DC3D2C2C462500A5CE5F /* simpleAnimationSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468DC3C2C2C462500A5CE5F /* simpleAnimationSlideView.swift */; };
+		3468DC3F2C2C47A300A5CE5F /* SimpleAnimationSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468DC3E2C2C47A300A5CE5F /* SimpleAnimationSlideViewController.swift */; };
 		3471FB522C1C83B3009E3EA4 /* GestureAnimationViewInitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471FB512C1C83B3009E3EA4 /* GestureAnimationViewInitial.swift */; };
 		3471FB542C1C8648009E3EA4 /* GestureLongPressAnimationViewFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471FB532C1C8648009E3EA4 /* GestureLongPressAnimationViewFinal.swift */; };
 		3471FB562C1C875E009E3EA4 /* GestureAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471FB552C1C875E009E3EA4 /* GestureAnimationViewController.swift */; };
@@ -65,6 +67,8 @@
 		345860222C237BFD002CD9BD /* EffectsAnimationTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsAnimationTwoView.swift; sourceTree = "<group>"; };
 		345860242C237E9A002CD9BD /* EffectsAnimationTwoViewInitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsAnimationTwoViewInitial.swift; sourceTree = "<group>"; };
 		345860262C23808F002CD9BD /* FinalAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAnimationView.swift; sourceTree = "<group>"; };
+		3468DC3C2C2C462500A5CE5F /* simpleAnimationSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleAnimationSlideView.swift; sourceTree = "<group>"; };
+		3468DC3E2C2C47A300A5CE5F /* SimpleAnimationSlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimationSlideViewController.swift; sourceTree = "<group>"; };
 		3471FB512C1C83B3009E3EA4 /* GestureAnimationViewInitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimationViewInitial.swift; sourceTree = "<group>"; };
 		3471FB532C1C8648009E3EA4 /* GestureLongPressAnimationViewFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLongPressAnimationViewFinal.swift; sourceTree = "<group>"; };
 		3471FB552C1C875E009E3EA4 /* GestureAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimationViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +217,8 @@
 				3458601E2C237943002CD9BD /* EffectsAnimationView.swift */,
 				345860222C237BFD002CD9BD /* EffectsAnimationTwoView.swift */,
 				345860262C23808F002CD9BD /* FinalAnimationView.swift */,
+				3468DC3C2C2C462500A5CE5F /* simpleAnimationSlideView.swift */,
+				3468DC3E2C2C47A300A5CE5F /* SimpleAnimationSlideViewController.swift */,
 			);
 			path = SwiftUIFinal;
 			sourceTree = "<group>";
@@ -311,12 +317,14 @@
 				345860252C237E9A002CD9BD /* EffectsAnimationTwoViewInitial.swift in Sources */,
 				34E596CE2BE16D080067EF6F /* NavigationViewController.swift in Sources */,
 				E0678D8C2C0F5F1B007E03BA /* TransitionScaleViewInitial.swift in Sources */,
+				3468DC3D2C2C462500A5CE5F /* simpleAnimationSlideView.swift in Sources */,
 				345860192C237136002CD9BD /* ShapesAndTrajectoriesAnimationViewInitial.swift in Sources */,
 				3458601B2C2374DF002CD9BD /* ShapesAndTrajectoriesTwoAnimationView.swift in Sources */,
 				E0678D8E2C0F5F31007E03BA /* TransitionScaleAnimationViewControllerInitial.swift in Sources */,
 				3458601F2C237943002CD9BD /* EffectsAnimationView.swift in Sources */,
 				345014072BF3E78B00706EF5 /* StateAnimationView.swift in Sources */,
 				34F7C8E82BF54C2B00D0D6C1 /* HorizontalSlideAnimationConstraintViewControllerInitial.swift in Sources */,
+				3468DC3F2C2C47A300A5CE5F /* SimpleAnimationSlideViewController.swift in Sources */,
 				34FB7E0B2C18915A009A9DB5 /* StateAnimationViewInitial.swift in Sources */,
 				34FB7E132C18976F009A9DB5 /* GestureAnimationView.swift in Sources */,
 				345014052BF2B67100706EF5 /* TransitionScaleAnimationViewController.swift in Sources */,
