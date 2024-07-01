@@ -13,18 +13,13 @@ struct ExpandSectionView: View {
     var body: some View {
         VStack {
             List {
-                //                Section("Tudo", isExpanded: $sectionIsExpanded) {
-                //                    Text("Item A")
-                //                    Text("Item B")
-                //                    Text("Item C")
-                //                }
                 Section(isExpanded: $sectionIsExpanded) {
                     Text("Item A")
                     Text("Item B")
                     Text("Item C")
                 } header: {
                     HStack {
-                        Text("Item B")
+                        Text("Header")
                         Spacer()
                         Button(sectionIsExpanded ? "Colapsar" : "Expandir") {
                             sectionIsExpanded.toggle()

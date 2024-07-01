@@ -1,5 +1,5 @@
 //
-//  SectionDynamicListView.swift
+//  SectionDynamicInitialView.swift
 //  ListProject
 //
 //  Created by Caio de Almeida Pessoa on 01/07/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SectionDynamicListView: View {
+struct SectionDynamicInitialView: View {
     struct Item: Identifiable {
         var id: String { name }
         let name: String
@@ -21,15 +21,13 @@ struct SectionDynamicListView: View {
     
     var body: some View {
         List {
-            Section("Items") {
-                ForEach(items) { item in
-                    Text(item.name)
-                }
+            ForEach(items) { item in
+                Text(item.name)
             }
         }
     }
 }
 
 #Preview {
-    SectionDynamicListView()
+    SectionDynamicInitialView()
 }
