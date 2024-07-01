@@ -2,7 +2,7 @@
 //  SectionStaticListView.swift
 //  ListProject
 //
-//  Created by Caio de Almeida Pessoa on 28/06/24.
+//  Created by Caio de Almeida Pessoa on 01/07/24.
 //
 
 import SwiftUI

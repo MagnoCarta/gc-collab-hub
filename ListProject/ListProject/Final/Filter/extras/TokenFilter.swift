@@ -52,7 +52,7 @@ struct TokenFilter: View {
                     }
                 }
                 .padding()
-            }/Users/caiodealmeidapessoa/.Trash/StyleListSimple.swift
+            }
 
             List(filteredItems, id: \.self) { item in
                 Text(item)

@@ -1,13 +1,13 @@
 //
-//  DynamicListView.swift
+//  DynamicListInitialView.swift
 //  ListProject
 //
-//  Created by Caio de Almeida Pessoa on 28/06/24.
+//  Created by Caio de Almeida Pessoa on 01/07/24.
 //
 
 import SwiftUI
 
-struct DynamicListView: View {
+struct DynamicListInitialView: View {
     struct Item: Identifiable {
             var id: String { name }
             let name: String
@@ -18,14 +18,12 @@ struct DynamicListView: View {
             .init(name: "Item B"),
             .init(name: "Item C"),
         ]
-        
-        var body: some View {
-            List(items) {
-                Text($0.name)
-            }
-        }
+
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
 }
 
 #Preview {
-    DynamicListView()
+    DynamicListInitialView()
 }
